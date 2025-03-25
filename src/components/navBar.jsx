@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { SearchContext } from "./searchContext";
+import { SearchContext } from "./SearchContext";
 import { Link, useNavigate } from "react-router-dom";
 import styles from "./navBar.module.css";
 import { FaUser, FaShoppingBag, FaCheckCircle } from "react-icons/fa";
