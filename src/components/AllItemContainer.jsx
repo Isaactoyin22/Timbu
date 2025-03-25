@@ -85,7 +85,7 @@ export default function AllItemContainer({ category = "men" }) {
     },
     {
       id: 8,
-      imageSrc: BluejeansImage,
+      imageSrc: JeansImage,
       name: "Sky Stock Blue Jean For Men W34 L42",
       price: "N14,500",
       category: "men",
