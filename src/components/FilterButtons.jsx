@@ -1,31 +1,16 @@
-import { useFilterContext } from "./FilterContext";
 import styles from "./FilterButton.module.css";
 
-export default function FilterButtons() {
-  const { filters, updateFilter } = useFilterContext();
-  const selectedFilters = filters.categories || [];
-
+export default function FilterButtons({ selectedFilters, handleFilterClick }) {
   const buttonLabels = [
     "All",
     "New arrivals",
+    "Trending",
     "Shorts",
-    "Jeans",
-    "Shirt",
+    "Suit",
     "Shoes",
-    "Formals",
+    "Jackets",
     "Hats",
   ];
-
-  const handleFilterClick = (label) => {
-    if (selectedFilters.includes(label)) {
-      updateFilter(
-        "categories",
-        selectedFilters.filter((item) => item !== label)
-      );
-    } else if (selectedFilters.length < 3) {
-      updateFilter("categories", [...selectedFilters, label]);
-    }
-  };
 
   return (
     <>

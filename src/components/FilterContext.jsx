@@ -13,11 +13,9 @@ export function FilterProvider({ children }) {
   };
 
   return (
-    <FilterProvider>
-      <FilterSection />
-
-      <FilterButtons />
-    </FilterProvider>
+    <FilterContext.Provider value={{ filters, updateFilter }}>
+      {children}
+    </FilterContext.Provider>
   );
 }
 
