@@ -13,9 +13,11 @@ export function FilterProvider({ children }) {
   };
 
   return (
-    <FilterContext.Provider value={{ filters, updateFilter }}>
-      {children}
-    </FilterContext.Provider>
+    <FilterProvider>
+      <FilterSection />
+
+      <FilterButtons />
+    </FilterProvider>
   );
 }
 
