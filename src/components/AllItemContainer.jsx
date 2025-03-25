@@ -8,8 +8,6 @@ import ShortSleeveImage from "../assets/WIDE-LEG WOOL TROUSERS 1 (1).svg";
 import GreyShortImage from "../assets/WIDE-LEG WOOL TROUSERS 1 (2).svg";
 import RneckImage from "../assets/Rectangle 53(1).svg";
 import BluejeansImage from "../assets/Rectangle 53(3).svg";
-import highWaistedJeanImage from "../assets/rectangle 53(10).svg";
-import denimMiniShortImage from "../assets/rectangle 53(9).svg";
 import stylishCropTopImage from "../assets/WIDE-LEG WOOL TROUSERS 1 (4).svg";
 import cropTopLuxuryImage from "../assets/WIDE-LEG WOOL TROUSERS 1 (3).svg";
 import vintageShirtImage from "../assets/rectangle 53 (6).svg";
@@ -94,30 +92,15 @@ export default function AllItemContainer({ category = "men" }) {
     // Women's Products
     {
       id: 9,
-      imageSrc: highWaistedJeanImage,
-      name: "High Waisted Jean For Ladies - W27 L37",
-      price: "N10,000",
-      category: "women",
-      type: "Jeans",
-    },
-    {
-      id: 10,
       imageSrc: PlainHoodieImage,
       name: "Plain Grey Unisex Hoodie All Sizes Available",
       price: "N8,500",
       category: "women",
       type: "Hoodie",
     },
+
     {
-      id: 11,
-      imageSrc: denimMiniShortImage,
-      name: "Denim High Waist Mini Hip Short - W25 L37",
-      price: "N14,000",
-      category: "women",
-      type: "Skirts",
-    },
-    {
-      id: 12,
+      id: 10,
       imageSrc: stylishCropTopImage,
       name: "Stylish Crop Top - Top For Ladies",
       price: "N8,500",
@@ -125,7 +108,7 @@ export default function AllItemContainer({ category = "men" }) {
       type: "Top",
     },
     {
-      id: 13,
+      id: 11,
       imageSrc: cropTopLuxuryImage,
       name: "Crop Top Stylish Luxury Top For Ladies - Pink",
       price: "N5,000",
@@ -133,7 +116,7 @@ export default function AllItemContainer({ category = "men" }) {
       type: "Top",
     },
     {
-      id: 14,
+      id: 12,
       imageSrc: vintageShirtImage,
       name: "Ladies Vintage Shirts - Beach White Sleeve Fashion",
       price: "N12,000",
@@ -141,7 +124,7 @@ export default function AllItemContainer({ category = "men" }) {
       type: "Shirt",
     },
     {
-      id: 15,
+      id: 13,
       imageSrc: fittedGownImage,
       name: "Fitted Corporate Gown",
       price: "N7,000",
@@ -149,7 +132,7 @@ export default function AllItemContainer({ category = "men" }) {
       type: "Gowns",
     },
     {
-      id: 16,
+      id: 14,
       imageSrc: aLineGownImage,
       name: "Ladies Free A-Line Gown - Green",
       price: "N8,000",
