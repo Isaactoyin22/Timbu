@@ -1,7 +1,7 @@
 import { useEffect, useContext, useMemo } from "react";
 import ItemContainer from "./ItemContainer";
 import JeansImage from "../assets/Rectangle 53.svg";
-import CorporateImage from "../assets/Rectangle 53(2).svg";
+import CorporateImage from "../assets/Rectangle 532.svg";
 import PlainHoodieImage from "../assets/WIDE-LEG WOOL TROUSERS 1.svg";
 import VintageImage from "../assets/WIDE-LEG WOOL TROUSERS 2.svg";
 import ShortSleeveImage from "../assets/WIDE-LEG WOOL TROUSERS 1 (1).svg";
