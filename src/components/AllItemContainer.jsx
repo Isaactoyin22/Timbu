@@ -10,7 +10,6 @@ import RneckImage from "../assets/Rectangle 53(1).svg";
 import BluejeansImage from "../assets/Rectangle 53(3).svg";
 import stylishCropTopImage from "../assets/WIDE-LEG WOOL TROUSERS 1 (4).svg";
 import cropTopLuxuryImage from "../assets/WIDE-LEG WOOL TROUSERS 1 (3).svg";
-import vintageShirtImage from "../assets/rectangle 53 (6).svg";
 import fittedGownImage from "../assets/rectangle 53 (7).svg";
 import aLineGownImage from "../assets/rectangle 53 (8).svg";
 import styles from "./AllItemContainer.module.css";
@@ -115,16 +114,9 @@ export default function AllItemContainer({ category = "men" }) {
       category: "women",
       type: "Top",
     },
+
     {
       id: 12,
-      imageSrc: vintageShirtImage,
-      name: "Ladies Vintage Shirts - Beach White Sleeve Fashion",
-      price: "N12,000",
-      category: "women",
-      type: "Shirt",
-    },
-    {
-      id: 13,
       imageSrc: fittedGownImage,
       name: "Fitted Corporate Gown",
       price: "N7,000",
@@ -132,7 +124,7 @@ export default function AllItemContainer({ category = "men" }) {
       type: "Gowns",
     },
     {
-      id: 14,
+      id: 13,
       imageSrc: aLineGownImage,
       name: "Ladies Free A-Line Gown - Green",
       price: "N8,000",
