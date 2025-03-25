@@ -1,6 +1,6 @@
 import { useEffect, useContext, useMemo } from "react";
 import ItemContainer from "./ItemContainer";
-import jeansImage from "../assets/Rectangle 53.svg";
+import JeansImage from "../assets/Rectangle 53.svg";
 import CorporateImage from "../assets/Rectangle 53(2).svg";
 import PlainHoodieImage from "../assets/WIDE-LEG WOOL TROUSERS 1.svg";
 import VintageImage from "../assets/WIDE-LEG WOOL TROUSERS 2.svg";
@@ -8,10 +8,13 @@ import ShortSleeveImage from "../assets/WIDE-LEG WOOL TROUSERS 1 (1).svg";
 import GreyShortImage from "../assets/WIDE-LEG WOOL TROUSERS 1 (2).svg";
 import RneckImage from "../assets/Rectangle 53(1).svg";
 import BluejeansImage from "../assets/Rectangle 53(3).svg";
-import stylishCropTopImage from "../assets/WIDE-LEG WOOL TROUSERS 1 (4).svg";
-import cropTopLuxuryImage from "../assets/WIDE-LEG WOOL TROUSERS 1 (3).svg";
-import fittedGownImage from "../assets/rectangle 53 (7).svg";
-import aLineGownImage from "../assets/rectangle 53 (8).svg";
+import HighWaistedJeanImage from "../assets/rectangle 53(10).svg";
+import DenimMiniShortImage from "../assets/rectangle 53(9).svg";
+import StylishCropTopImage from "../assets/WIDE-LEG WOOL TROUSERS 1 (4).svg";
+import CropTopLuxuryImage from "../assets/WIDE-LEG WOOL TROUSERS 1 (3).svg";
+import VintageShirtImage from "../assets/rectangle 53 (6).svg";
+import FittedGownImage from "../assets/rectangle 53 (7).svg";
+import ALineGownImage from "../assets/rectangle 53 (8).svg";
 import styles from "./AllItemContainer.module.css";
 import { useProductContext } from "./ProductContext";
 import { SearchContext } from "./searchContext";
@@ -26,7 +29,7 @@ export default function AllItemContainer({ category = "men" }) {
     // Men's Products
     {
       id: 1,
-      imageSrc: jeansImage,
+      imageSrc: JeansImage,
       name: "Reclaimed Vintage Men Loose Fit Jean in Vintage Mid Blue",
       price: "N4,000",
       category: "men",
@@ -91,41 +94,63 @@ export default function AllItemContainer({ category = "men" }) {
     // Women's Products
     {
       id: 9,
+      imageSrc: HighWaistedJeanImage,
+      name: "High Waisted Jean For Ladies - W27 L37",
+      price: "N10,000",
+      category: "women",
+      type: "Jeans",
+    },
+    {
+      id: 10,
       imageSrc: PlainHoodieImage,
       name: "Plain Grey Unisex Hoodie All Sizes Available",
       price: "N8,500",
       category: "women",
       type: "Hoodie",
     },
-
     {
-      id: 10,
-      imageSrc: stylishCropTopImage,
+      id: 11,
+      imageSrc: DenimMiniShortImage,
+      name: "Denim High Waist Mini Hip Short - W25 L37",
+      price: "N14,000",
+      category: "women",
+      type: "Skirts",
+    },
+    {
+      id: 12,
+      imageSrc: StylishCropTopImage,
       name: "Stylish Crop Top - Top For Ladies",
       price: "N8,500",
       category: "women",
       type: "Top",
     },
     {
-      id: 11,
-      imageSrc: cropTopLuxuryImage,
+      id: 13,
+      imageSrc: CropTopLuxuryImage,
       name: "Crop Top Stylish Luxury Top For Ladies - Pink",
       price: "N5,000",
       category: "women",
       type: "Top",
     },
-
     {
-      id: 12,
-      imageSrc: fittedGownImage,
+      id: 14,
+      imageSrc: VintageShirtImage,
+      name: "Ladies Vintage Shirts - Beach White Sleeve Fashion",
+      price: "N12,000",
+      category: "women",
+      type: "Shirt",
+    },
+    {
+      id: 15,
+      imageSrc: FittedGownImage,
       name: "Fitted Corporate Gown",
       price: "N7,000",
       category: "women",
       type: "Gowns",
     },
     {
-      id: 13,
-      imageSrc: aLineGownImage,
+      id: 16,
+      imageSrc: ALineGownImage,
       name: "Ladies Free A-Line Gown - Green",
       price: "N8,000",
       category: "women",
