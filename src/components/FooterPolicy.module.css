@@ -1,0 +1,38 @@
+.footerPolicy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.copyright {
+  font-size: 14px;
+  color: #333;
+}
+
+.policyLinks {
+  display: flex;
+  gap: 20px;
+}
+
+.policyLinks a {
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+}
+
+.policyLinks a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .footerPolicy {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+}

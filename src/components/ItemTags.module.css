@@ -1,0 +1,22 @@
+.itemTags {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin-top: -10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.productName {
+  font-size: 16px;
+  color: #000;
+  margin: 0 0 5px 0;
+  font-weight: 500;
+}
+
+.price {
+  font-size: 18px;
+  color: #000;
+  font-weight: bold;
+  margin: 0;
+}

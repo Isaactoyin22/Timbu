@@ -1,0 +1,61 @@
+.allItemContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.loadMoreSection {
+  text-align: center;
+  padding: 20px;
+}
+.loadMoreSection p {
+  font-size: 16px;
+  color: #000;
+  margin: 10px 0;
+}
+
+.loadMoreSection button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.loadMoreSection button:disabled {
+  background-color: #f0f0f0;
+  cursor: not-allowed;
+}
+.noProducts {
+  text-align: center;
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+.noProducts h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 10px;
+}
+.noProducts p {
+  font-size: 16px;
+  color: #666;
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .allItemContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .allItemContainer {
+    grid-template-columns: 1fr;
+  }
+}
