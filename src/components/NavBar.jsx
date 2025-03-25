@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import { SearchContext } from "./SearchContext";
 import { Link, useNavigate } from "react-router-dom";
-import styles from "./navBar.module.css";
+import styles from "./NavBar.module.css";
 import { FaUser, FaShoppingBag, FaCheckCircle } from "react-icons/fa";
 import { useCartContext } from "./CartContext";
 import CartModal from "./CartModal";

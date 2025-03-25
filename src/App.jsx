@@ -1,5 +1,5 @@
 import React from "react";
-import { SearchProvider } from "./components/searchContext";
+import { SearchProvider } from "./components/SearchContext";
 import { ProductProvider } from "./components/ProductContext";
 import { CartProvider } from "./components/CartContext";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";

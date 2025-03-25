@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "./filterSection.module.css";
+import styles from "./FilterSection.module.css";
 import { FaCaretDown } from "react-icons/fa";
 import FilterButtons from "./FilterButtons";
 import { useFilterContext } from "./FilterContext";
