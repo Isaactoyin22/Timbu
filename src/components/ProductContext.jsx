@@ -3,11 +3,11 @@ import { createContext, useState, useContext } from "react";
 const ProductContext = createContext();
 
 export function ProductProvider({ children }) {
-  const [product, setProduct] = useState(); // Viewed products
+  const [product, setProduct] = useState(0); // Viewed products
   const [totalProduct, setTotalProduct] = useState(0); // Total products (updated dynamically)
 
   const handleLoadMore = () => {
-    setProduct((prev) => Math.min(prev + 10, totalProduct));
+    setProduct((prev) => Math.min(prev + 4, totalProduct));
   };
 
   return (
